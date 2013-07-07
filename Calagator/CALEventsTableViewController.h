@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "jsonController.h"
 
 @interface CALEventsTableViewController : UITableViewController
+
+@property (nonatomic, strong) NSArray *arrayEvents;
+@property (nonatomic, strong) NSArray *arrayEventDates;
+@property (nonatomic, strong) NSDictionary *dictEvents;
 
 @end

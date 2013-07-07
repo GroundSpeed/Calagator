@@ -7,6 +7,7 @@
 //
 
 #import "CALEventsTableViewController.h"
+#import "CALEventsDetailViewController.h"
 
 @interface CALEventsTableViewController ()
 
@@ -32,6 +33,12 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    jsonController *events = [[jsonController alloc] init];
+    _dictEvents = [events getEvents];
+    _arrayEvents = [_dictEvents valueForKey:@"title"];
+    _arrayEventDates = [_dictEvents valueForKey:@"start_time"];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,16 +51,14 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return _arrayEvents.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -61,7 +66,22 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    // Configure the cell...
+    NSString *dateWithInitialFormat = [_arrayEventDates objectAtIndex:indexPath.row];
+    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ssZZZZZ"];
+    NSDate *date = [dateFormatter dateFromString:dateWithInitialFormat];
+    
+    [dateFormatter setDateFormat:@"MM/dd/yyyy EEEE hh:mm a"];
+    NSString *dateWithNewFormat = [dateFormatter stringFromDate:date];
+    
+    UILabel *lblTitle = (UILabel *)[cell viewWithTag:1];
+    lblTitle.text = [_arrayEvents objectAtIndex:indexPath.row];
+    
+    UILabel *lblDate = (UILabel *)[cell viewWithTag:2];
+    lblDate.text = [NSString stringWithFormat:@"%@", dateWithNewFormat];
+    
+    //[_arrayEventDates objectAtIndex:indexPath.row]
     
     return cell;
 }
@@ -109,13 +129,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
+    CALEventsDetailViewController *detail = [self.storyboard instantiateViewControllerWithIdentifier:@"EventsDetail"];
+    detail.events = [_arrayEvents objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:detail animated:YES];
 }
 
 @end

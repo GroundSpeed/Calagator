@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952841CD17886EB6005FAA21 /* jsonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952841CC17886EB6005FAA21 /* jsonController.m */; };
+		952841D01788815E005FAA21 /* CALEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952841CF1788815E005FAA21 /* CALEventsViewController.m */; };
+		952841D31788D69B005FAA21 /* CALEventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952841D21788D69B005FAA21 /* CALEventsTableViewController.m */; };
+		952841DA17893515005FAA21 /* CALEventsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952841D917893515005FAA21 /* CALEventsDetailViewController.m */; };
+		952841DD1789C462005FAA21 /* CALVenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952841DC1789C462005FAA21 /* CALVenuesViewController.m */; };
+		952841E31789C49E005FAA21 /* CALVenuesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952841E21789C49E005FAA21 /* CALVenuesTableViewController.m */; };
 		955FDACF1787C88E007A04D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955FDACE1787C88E007A04D3 /* UIKit.framework */; };
 		955FDAD11787C88E007A04D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955FDAD01787C88E007A04D3 /* Foundation.framework */; };
 		955FDAD31787C88E007A04D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955FDAD21787C88E007A04D3 /* CoreGraphics.framework */; };
@@ -16,9 +22,24 @@
 		955FDAE11787C88F007A04D3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 955FDAE01787C88F007A04D3 /* Default.png */; };
 		955FDAE31787C88F007A04D3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955FDAE21787C88F007A04D3 /* Default@2x.png */; };
 		955FDAE51787C88F007A04D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955FDAE41787C88F007A04D3 /* Default-568h@2x.png */; };
+		955FDAEE1787C95B007A04D3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955FDAED1787C95B007A04D3 /* MainStoryboard.storyboard */; };
+		FD9CDBA0FD344D49859BDB75 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7135D13083DE41E3BC697E26 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7135D13083DE41E3BC697E26 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		952841CB17886EB6005FAA21 /* jsonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsonController.h; sourceTree = "<group>"; };
+		952841CC17886EB6005FAA21 /* jsonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jsonController.m; sourceTree = "<group>"; };
+		952841CE1788815E005FAA21 /* CALEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALEventsViewController.h; sourceTree = "<group>"; };
+		952841CF1788815E005FAA21 /* CALEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALEventsViewController.m; sourceTree = "<group>"; };
+		952841D11788D69B005FAA21 /* CALEventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALEventsTableViewController.h; sourceTree = "<group>"; };
+		952841D21788D69B005FAA21 /* CALEventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALEventsTableViewController.m; sourceTree = "<group>"; };
+		952841D817893515005FAA21 /* CALEventsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALEventsDetailViewController.h; sourceTree = "<group>"; };
+		952841D917893515005FAA21 /* CALEventsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALEventsDetailViewController.m; sourceTree = "<group>"; };
+		952841DB1789C462005FAA21 /* CALVenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALVenuesViewController.h; sourceTree = "<group>"; };
+		952841DC1789C462005FAA21 /* CALVenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALVenuesViewController.m; sourceTree = "<group>"; };
+		952841E11789C49E005FAA21 /* CALVenuesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALVenuesTableViewController.h; sourceTree = "<group>"; };
+		952841E21789C49E005FAA21 /* CALVenuesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALVenuesTableViewController.m; sourceTree = "<group>"; };
 		955FDACB1787C88E007A04D3 /* Calagator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calagator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		955FDACE1787C88E007A04D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		955FDAD01787C88E007A04D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +53,8 @@
 		955FDAE01787C88F007A04D3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		955FDAE21787C88F007A04D3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		955FDAE41787C88F007A04D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		955FDAED1787C95B007A04D3 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A1C0FA8865C44FCDB7F75232 /* Pods/Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,18 +65,77 @@
 				955FDACF1787C88E007A04D3 /* UIKit.framework in Frameworks */,
 				955FDAD11787C88E007A04D3 /* Foundation.framework in Frameworks */,
 				955FDAD31787C88E007A04D3 /* CoreGraphics.framework in Frameworks */,
+				FD9CDBA0FD344D49859BDB75 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		952841C917886D78005FAA21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				952841CB17886EB6005FAA21 /* jsonController.h */,
+				952841CC17886EB6005FAA21 /* jsonController.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		952841CA17886D84005FAA21 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				952841E01789C475005FAA21 /* Search */,
+				952841DF1789C46E005FAA21 /* Venues */,
+				952841DE1789C469005FAA21 /* Events */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		952841D417891B5D005FAA21 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		952841DE1789C469005FAA21 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				952841CE1788815E005FAA21 /* CALEventsViewController.h */,
+				952841CF1788815E005FAA21 /* CALEventsViewController.m */,
+				952841D11788D69B005FAA21 /* CALEventsTableViewController.h */,
+				952841D21788D69B005FAA21 /* CALEventsTableViewController.m */,
+				952841D817893515005FAA21 /* CALEventsDetailViewController.h */,
+				952841D917893515005FAA21 /* CALEventsDetailViewController.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		952841DF1789C46E005FAA21 /* Venues */ = {
+			isa = PBXGroup;
+			children = (
+				952841DB1789C462005FAA21 /* CALVenuesViewController.h */,
+				952841DC1789C462005FAA21 /* CALVenuesViewController.m */,
+				952841E11789C49E005FAA21 /* CALVenuesTableViewController.h */,
+				952841E21789C49E005FAA21 /* CALVenuesTableViewController.m */,
+			);
+			name = Venues;
+			sourceTree = "<group>";
+		};
+		952841E01789C475005FAA21 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
 		955FDAC21787C88E007A04D3 = {
 			isa = PBXGroup;
 			children = (
 				955FDAD41787C88E007A04D3 /* Calagator */,
 				955FDACD1787C88E007A04D3 /* Frameworks */,
 				955FDACC1787C88E007A04D3 /* Products */,
+				A1C0FA8865C44FCDB7F75232 /* Pods/Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +153,7 @@
 				955FDACE1787C88E007A04D3 /* UIKit.framework */,
 				955FDAD01787C88E007A04D3 /* Foundation.framework */,
 				955FDAD21787C88E007A04D3 /* CoreGraphics.framework */,
+				7135D13083DE41E3BC697E26 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,6 +161,10 @@
 		955FDAD41787C88E007A04D3 /* Calagator */ = {
 			isa = PBXGroup;
 			children = (
+				952841D417891B5D005FAA21 /* Vendors */,
+				952841C917886D78005FAA21 /* Models */,
+				952841CA17886D84005FAA21 /* Controllers */,
+				955FDAEC1787C94E007A04D3 /* Views */,
 				955FDADD1787C88F007A04D3 /* CALAppDelegate.h */,
 				955FDADE1787C88F007A04D3 /* CALAppDelegate.m */,
 				955FDAD51787C88E007A04D3 /* Supporting Files */,
@@ -99,6 +186,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		955FDAEC1787C94E007A04D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				955FDAED1787C95B007A04D3 /* MainStoryboard.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 955FDAE81787C88F007A04D3 /* Build configuration list for PBXNativeTarget "Calagator" */;
 			buildPhases = (
+				CDBFDE12CF244BF8B3A82221 /* Check Pods Manifest.lock */,
 				955FDAC71787C88E007A04D3 /* Sources */,
 				955FDAC81787C88E007A04D3 /* Frameworks */,
 				955FDAC91787C88E007A04D3 /* Resources */,
+				9FEEB903683F464CBC44827C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,10 +252,44 @@
 				955FDAE11787C88F007A04D3 /* Default.png in Resources */,
 				955FDAE31787C88F007A04D3 /* Default@2x.png in Resources */,
 				955FDAE51787C88F007A04D3 /* Default-568h@2x.png in Resources */,
+				955FDAEE1787C95B007A04D3 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FEEB903683F464CBC44827C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDBFDE12CF244BF8B3A82221 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		955FDAC71787C88E007A04D3 /* Sources */ = {
@@ -167,6 +298,12 @@
 			files = (
 				955FDADB1787C88E007A04D3 /* main.m in Sources */,
 				955FDADF1787C88F007A04D3 /* CALAppDelegate.m in Sources */,
+				952841CD17886EB6005FAA21 /* jsonController.m in Sources */,
+				952841D01788815E005FAA21 /* CALEventsViewController.m in Sources */,
+				952841D31788D69B005FAA21 /* CALEventsTableViewController.m in Sources */,
+				952841DA17893515005FAA21 /* CALEventsDetailViewController.m in Sources */,
+				952841DD1789C462005FAA21 /* CALVenuesViewController.m in Sources */,
+				952841E31789C49E005FAA21 /* CALVenuesTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +379,7 @@
 		};
 		955FDAE91787C88F007A04D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C0FA8865C44FCDB7F75232 /* Pods/Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calagator/Calagator-Prefix.pch";
@@ -253,6 +391,7 @@
 		};
 		955FDAEA1787C88F007A04D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C0FA8865C44FCDB7F75232 /* Pods/Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calagator/Calagator-Prefix.pch";
@@ -281,6 +420,7 @@
 				955FDAEA1787C88F007A04D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 GroundSpeed. All rights reserved.
 //
 
-#import "CALAllEventsViewController.h"
+#import "CALEventsViewController.h"
 
-@interface CALAllEventsViewController ()
+@interface CALEventsViewController ()
 
 @end
 
-@implementation CALAllEventsViewController
+@implementation CALEventsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

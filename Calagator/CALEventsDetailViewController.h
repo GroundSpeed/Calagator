@@ -10,4 +10,6 @@
 
 @interface CALEventsDetailViewController : UIViewController
 
+@property (nonatomic, strong) NSDictionary *events;
+
 @end

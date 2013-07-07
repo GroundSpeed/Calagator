@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "jsonController.h"
 
 @interface CALVenuesTableViewController : UITableViewController
+
+@property (nonatomic, strong) NSArray *arrayVenues;
+@property (nonatomic, strong) NSArray *arrayVenueAddresses;
+@property (nonatomic, strong) NSDictionary *dictVenues;
 
 @end

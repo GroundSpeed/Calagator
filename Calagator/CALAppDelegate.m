@@ -7,15 +7,53 @@
 //
 
 #import "CALAppDelegate.h"
+#import "AMSlideOutNavigationController.h"
 
 @implementation CALAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+	UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+    
+	UIViewController* controller;
+	
+	self.slideoutController = [AMSlideOutNavigationController slideOutNavigation];
+	
+    [self.slideoutController setSlideoutOptions:@{
+                         AMOptionsEnableShadow : @(NO),
+                       AMOptionsCellBackground : [UIColor blackColor],
+                      AMOptionsCellShadowColor : [UIColor blackColor],
+                           AMOptionsBackground : [UIColor blackColor],
+                      AMOptionsHeaderFontColor : [UIColor greenColor],
+                    AMOptionsHeaderShadowColor : [UIColor blackColor],
+                           AMOptionsBackground : [UIColor blackColor],
+                           AMOptionsSlideValue : @(200),
+                         AMOptionsHeaderHeight : @(32),
+                     AMOptionsHeaderGradientUp : [UIColor blackColor],
+                           AMOptionsHeaderFont : [UIFont fontWithName:@"Gill Sans" size:18],
+                             AMOptionsCellFont : [UIFont fontWithName:@"Gill Sans" size:16],
+                   AMOptionsHeaderGradientDown : [UIColor darkGrayColor]
+     }];
+    
+	[self.slideoutController addSectionWithTitle:@"Toledo Tech Events"];
+	
+	controller = [storyboard instantiateViewControllerWithIdentifier:@"CALAllEvents"];
+	[self.slideoutController addViewControllerToLastSection:controller tagged:1 withTitle:@"All Events" andIcon:@""];
+	
+	controller = [storyboard instantiateViewControllerWithIdentifier:@"CALVenues"];
+	[self.slideoutController addViewControllerToLastSection:controller tagged:2 withTitle:@"Venues" andIcon:@""];
+    
+	controller = [storyboard instantiateViewControllerWithIdentifier:@"CALSearch"];
+	[self.slideoutController addViewControllerToLastSection:controller tagged:3 withTitle:@"Search" andIcon:@""];
+    
+    controller = [storyboard instantiateViewControllerWithIdentifier:@"CALAbout"];
+	[self.slideoutController addViewControllerToLastSection:controller tagged:4 withTitle:@"About" andIcon:@""];
+    
+    controller = [storyboard instantiateViewControllerWithIdentifier:@"CALSettings"];
+	[self.slideoutController addViewControllerToLastSection:controller tagged:4 withTitle:@"Settings" andIcon:@""];
+    
+    [self.window setRootViewController:self.slideoutController];
+	
     return YES;
 }
 

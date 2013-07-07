@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CALAllEventsViewController : UIViewController
+@interface CALEventsViewController : UIViewController
 
 @end

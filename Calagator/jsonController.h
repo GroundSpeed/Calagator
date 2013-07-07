@@ -8,12 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface InterestRates : NSObject
-{
-    NSMutableArray *arrayInterestRates;
-    NSMutableArray *arrayInterestLabels;
-}
+@interface jsonController : NSObject
 
--(NSDictionary *)getInterestRates;
+-(NSDictionary *)getEvents;
+-(NSDictionary *)getVenues;
 
 @end
