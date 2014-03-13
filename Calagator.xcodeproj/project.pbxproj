@@ -7,205 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		952841CD17886EB6005FAA21 /* jsonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952841CC17886EB6005FAA21 /* jsonController.m */; };
-		952841D01788815E005FAA21 /* CALEventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952841CF1788815E005FAA21 /* CALEventsViewController.m */; };
-		952841D31788D69B005FAA21 /* CALEventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952841D21788D69B005FAA21 /* CALEventsTableViewController.m */; };
-		952841DA17893515005FAA21 /* CALEventsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952841D917893515005FAA21 /* CALEventsDetailViewController.m */; };
-		952841DD1789C462005FAA21 /* CALVenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952841DC1789C462005FAA21 /* CALVenuesViewController.m */; };
-		952841E31789C49E005FAA21 /* CALVenuesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 952841E21789C49E005FAA21 /* CALVenuesTableViewController.m */; };
-		955FDACF1787C88E007A04D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955FDACE1787C88E007A04D3 /* UIKit.framework */; };
-		955FDAD11787C88E007A04D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955FDAD01787C88E007A04D3 /* Foundation.framework */; };
-		955FDAD31787C88E007A04D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 955FDAD21787C88E007A04D3 /* CoreGraphics.framework */; };
-		955FDAD91787C88E007A04D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 955FDAD71787C88E007A04D3 /* InfoPlist.strings */; };
-		955FDADB1787C88E007A04D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 955FDADA1787C88E007A04D3 /* main.m */; };
-		955FDADF1787C88F007A04D3 /* CALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 955FDADE1787C88F007A04D3 /* CALAppDelegate.m */; };
-		955FDAE11787C88F007A04D3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 955FDAE01787C88F007A04D3 /* Default.png */; };
-		955FDAE31787C88F007A04D3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955FDAE21787C88F007A04D3 /* Default@2x.png */; };
-		955FDAE51787C88F007A04D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 955FDAE41787C88F007A04D3 /* Default-568h@2x.png */; };
-		955FDAEE1787C95B007A04D3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955FDAED1787C95B007A04D3 /* MainStoryboard.storyboard */; };
-		FD9CDBA0FD344D49859BDB75 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7135D13083DE41E3BC697E26 /* libPods.a */; };
+		95312AFF18D1457300A49D6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95312AFE18D1457300A49D6D /* Foundation.framework */; };
+		95312B0118D1457300A49D6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95312B0018D1457300A49D6D /* CoreGraphics.framework */; };
+		95312B0318D1457300A49D6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95312B0218D1457300A49D6D /* UIKit.framework */; };
+		95312B0918D1457300A49D6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95312B0718D1457300A49D6D /* InfoPlist.strings */; };
+		95312B0B18D1457300A49D6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95312B0A18D1457300A49D6D /* main.m */; };
+		95312B0F18D1457300A49D6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95312B0E18D1457300A49D6D /* AppDelegate.m */; };
+		95312B1218D1457300A49D6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95312B1018D1457300A49D6D /* Main.storyboard */; };
+		95312B1518D1457300A49D6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95312B1418D1457300A49D6D /* ViewController.m */; };
+		95312B1718D1457300A49D6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95312B1618D1457300A49D6D /* Images.xcassets */; };
+		95312B1E18D1457300A49D6D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95312B1D18D1457300A49D6D /* XCTest.framework */; };
+		95312B1F18D1457300A49D6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95312AFE18D1457300A49D6D /* Foundation.framework */; };
+		95312B2018D1457300A49D6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95312B0218D1457300A49D6D /* UIKit.framework */; };
+		95312B2818D1457300A49D6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95312B2618D1457300A49D6D /* InfoPlist.strings */; };
+		95312B2A18D1457300A49D6D /* CalagatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95312B2918D1457300A49D6D /* CalagatorTests.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		95312B2118D1457300A49D6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95312AF318D1457300A49D6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95312AFA18D1457300A49D6D;
+			remoteInfo = Calagator;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		7135D13083DE41E3BC697E26 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		952841CB17886EB6005FAA21 /* jsonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsonController.h; sourceTree = "<group>"; };
-		952841CC17886EB6005FAA21 /* jsonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jsonController.m; sourceTree = "<group>"; };
-		952841CE1788815E005FAA21 /* CALEventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALEventsViewController.h; sourceTree = "<group>"; };
-		952841CF1788815E005FAA21 /* CALEventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALEventsViewController.m; sourceTree = "<group>"; };
-		952841D11788D69B005FAA21 /* CALEventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALEventsTableViewController.h; sourceTree = "<group>"; };
-		952841D21788D69B005FAA21 /* CALEventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALEventsTableViewController.m; sourceTree = "<group>"; };
-		952841D817893515005FAA21 /* CALEventsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALEventsDetailViewController.h; sourceTree = "<group>"; };
-		952841D917893515005FAA21 /* CALEventsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALEventsDetailViewController.m; sourceTree = "<group>"; };
-		952841DB1789C462005FAA21 /* CALVenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALVenuesViewController.h; sourceTree = "<group>"; };
-		952841DC1789C462005FAA21 /* CALVenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALVenuesViewController.m; sourceTree = "<group>"; };
-		952841E11789C49E005FAA21 /* CALVenuesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALVenuesTableViewController.h; sourceTree = "<group>"; };
-		952841E21789C49E005FAA21 /* CALVenuesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALVenuesTableViewController.m; sourceTree = "<group>"; };
-		955FDACB1787C88E007A04D3 /* Calagator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calagator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		955FDACE1787C88E007A04D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		955FDAD01787C88E007A04D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		955FDAD21787C88E007A04D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		955FDAD61787C88E007A04D3 /* Calagator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calagator-Info.plist"; sourceTree = "<group>"; };
-		955FDAD81787C88E007A04D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		955FDADA1787C88E007A04D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		955FDADC1787C88E007A04D3 /* Calagator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calagator-Prefix.pch"; sourceTree = "<group>"; };
-		955FDADD1787C88F007A04D3 /* CALAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CALAppDelegate.h; sourceTree = "<group>"; };
-		955FDADE1787C88F007A04D3 /* CALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CALAppDelegate.m; sourceTree = "<group>"; };
-		955FDAE01787C88F007A04D3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		955FDAE21787C88F007A04D3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		955FDAE41787C88F007A04D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		955FDAED1787C95B007A04D3 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A1C0FA8865C44FCDB7F75232 /* Pods/Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		95312AFB18D1457300A49D6D /* Calagator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calagator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95312AFE18D1457300A49D6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95312B0018D1457300A49D6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95312B0218D1457300A49D6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95312B0618D1457300A49D6D /* Calagator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calagator-Info.plist"; sourceTree = "<group>"; };
+		95312B0818D1457300A49D6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95312B0A18D1457300A49D6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95312B0C18D1457300A49D6D /* Calagator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calagator-Prefix.pch"; sourceTree = "<group>"; };
+		95312B0D18D1457300A49D6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95312B0E18D1457300A49D6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95312B1118D1457300A49D6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95312B1318D1457300A49D6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95312B1418D1457300A49D6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95312B1618D1457300A49D6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95312B1C18D1457300A49D6D /* CalagatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalagatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95312B1D18D1457300A49D6D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		95312B2518D1457300A49D6D /* CalagatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalagatorTests-Info.plist"; sourceTree = "<group>"; };
+		95312B2718D1457300A49D6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95312B2918D1457300A49D6D /* CalagatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalagatorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		955FDAC81787C88E007A04D3 /* Frameworks */ = {
+		95312AF818D1457300A49D6D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				955FDACF1787C88E007A04D3 /* UIKit.framework in Frameworks */,
-				955FDAD11787C88E007A04D3 /* Foundation.framework in Frameworks */,
-				955FDAD31787C88E007A04D3 /* CoreGraphics.framework in Frameworks */,
-				FD9CDBA0FD344D49859BDB75 /* libPods.a in Frameworks */,
+				95312B0118D1457300A49D6D /* CoreGraphics.framework in Frameworks */,
+				95312B0318D1457300A49D6D /* UIKit.framework in Frameworks */,
+				95312AFF18D1457300A49D6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95312B1918D1457300A49D6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95312B1E18D1457300A49D6D /* XCTest.framework in Frameworks */,
+				95312B2018D1457300A49D6D /* UIKit.framework in Frameworks */,
+				95312B1F18D1457300A49D6D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		952841C917886D78005FAA21 /* Models */ = {
+		95312AF218D1457300A49D6D = {
 			isa = PBXGroup;
 			children = (
-				952841CB17886EB6005FAA21 /* jsonController.h */,
-				952841CC17886EB6005FAA21 /* jsonController.m */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		952841CA17886D84005FAA21 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				952841E01789C475005FAA21 /* Search */,
-				952841DF1789C46E005FAA21 /* Venues */,
-				952841DE1789C469005FAA21 /* Events */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		952841D417891B5D005FAA21 /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Vendors;
-			sourceTree = "<group>";
-		};
-		952841DE1789C469005FAA21 /* Events */ = {
-			isa = PBXGroup;
-			children = (
-				952841CE1788815E005FAA21 /* CALEventsViewController.h */,
-				952841CF1788815E005FAA21 /* CALEventsViewController.m */,
-				952841D11788D69B005FAA21 /* CALEventsTableViewController.h */,
-				952841D21788D69B005FAA21 /* CALEventsTableViewController.m */,
-				952841D817893515005FAA21 /* CALEventsDetailViewController.h */,
-				952841D917893515005FAA21 /* CALEventsDetailViewController.m */,
-			);
-			name = Events;
-			sourceTree = "<group>";
-		};
-		952841DF1789C46E005FAA21 /* Venues */ = {
-			isa = PBXGroup;
-			children = (
-				952841DB1789C462005FAA21 /* CALVenuesViewController.h */,
-				952841DC1789C462005FAA21 /* CALVenuesViewController.m */,
-				952841E11789C49E005FAA21 /* CALVenuesTableViewController.h */,
-				952841E21789C49E005FAA21 /* CALVenuesTableViewController.m */,
-			);
-			name = Venues;
-			sourceTree = "<group>";
-		};
-		952841E01789C475005FAA21 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Search;
-			sourceTree = "<group>";
-		};
-		955FDAC21787C88E007A04D3 = {
-			isa = PBXGroup;
-			children = (
-				955FDAD41787C88E007A04D3 /* Calagator */,
-				955FDACD1787C88E007A04D3 /* Frameworks */,
-				955FDACC1787C88E007A04D3 /* Products */,
-				A1C0FA8865C44FCDB7F75232 /* Pods/Pods.xcconfig */,
+				95312B0418D1457300A49D6D /* Calagator */,
+				95312B2318D1457300A49D6D /* CalagatorTests */,
+				95312AFD18D1457300A49D6D /* Frameworks */,
+				95312AFC18D1457300A49D6D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		955FDACC1787C88E007A04D3 /* Products */ = {
+		95312AFC18D1457300A49D6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				955FDACB1787C88E007A04D3 /* Calagator.app */,
+				95312AFB18D1457300A49D6D /* Calagator.app */,
+				95312B1C18D1457300A49D6D /* CalagatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		955FDACD1787C88E007A04D3 /* Frameworks */ = {
+		95312AFD18D1457300A49D6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				955FDACE1787C88E007A04D3 /* UIKit.framework */,
-				955FDAD01787C88E007A04D3 /* Foundation.framework */,
-				955FDAD21787C88E007A04D3 /* CoreGraphics.framework */,
-				7135D13083DE41E3BC697E26 /* libPods.a */,
+				95312AFE18D1457300A49D6D /* Foundation.framework */,
+				95312B0018D1457300A49D6D /* CoreGraphics.framework */,
+				95312B0218D1457300A49D6D /* UIKit.framework */,
+				95312B1D18D1457300A49D6D /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		955FDAD41787C88E007A04D3 /* Calagator */ = {
+		95312B0418D1457300A49D6D /* Calagator */ = {
 			isa = PBXGroup;
 			children = (
-				952841D417891B5D005FAA21 /* Vendors */,
-				952841C917886D78005FAA21 /* Models */,
-				952841CA17886D84005FAA21 /* Controllers */,
-				955FDAEC1787C94E007A04D3 /* Views */,
-				955FDADD1787C88F007A04D3 /* CALAppDelegate.h */,
-				955FDADE1787C88F007A04D3 /* CALAppDelegate.m */,
-				955FDAD51787C88E007A04D3 /* Supporting Files */,
+				95312B0D18D1457300A49D6D /* AppDelegate.h */,
+				95312B0E18D1457300A49D6D /* AppDelegate.m */,
+				95312B1018D1457300A49D6D /* Main.storyboard */,
+				95312B1318D1457300A49D6D /* ViewController.h */,
+				95312B1418D1457300A49D6D /* ViewController.m */,
+				95312B1618D1457300A49D6D /* Images.xcassets */,
+				95312B0518D1457300A49D6D /* Supporting Files */,
 			);
 			path = Calagator;
 			sourceTree = "<group>";
 		};
-		955FDAD51787C88E007A04D3 /* Supporting Files */ = {
+		95312B0518D1457300A49D6D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				955FDAD61787C88E007A04D3 /* Calagator-Info.plist */,
-				955FDAD71787C88E007A04D3 /* InfoPlist.strings */,
-				955FDADA1787C88E007A04D3 /* main.m */,
-				955FDADC1787C88E007A04D3 /* Calagator-Prefix.pch */,
-				955FDAE01787C88F007A04D3 /* Default.png */,
-				955FDAE21787C88F007A04D3 /* Default@2x.png */,
-				955FDAE41787C88F007A04D3 /* Default-568h@2x.png */,
+				95312B0618D1457300A49D6D /* Calagator-Info.plist */,
+				95312B0718D1457300A49D6D /* InfoPlist.strings */,
+				95312B0A18D1457300A49D6D /* main.m */,
+				95312B0C18D1457300A49D6D /* Calagator-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		955FDAEC1787C94E007A04D3 /* Views */ = {
+		95312B2318D1457300A49D6D /* CalagatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				955FDAED1787C95B007A04D3 /* MainStoryboard.storyboard */,
+				95312B2918D1457300A49D6D /* CalagatorTests.m */,
+				95312B2418D1457300A49D6D /* Supporting Files */,
 			);
-			name = Views;
+			path = CalagatorTests;
+			sourceTree = "<group>";
+		};
+		95312B2418D1457300A49D6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95312B2518D1457300A49D6D /* CalagatorTests-Info.plist */,
+				95312B2618D1457300A49D6D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		955FDACA1787C88E007A04D3 /* Calagator */ = {
+		95312AFA18D1457300A49D6D /* Calagator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 955FDAE81787C88F007A04D3 /* Build configuration list for PBXNativeTarget "Calagator" */;
+			buildConfigurationList = 95312B2D18D1457300A49D6D /* Build configuration list for PBXNativeTarget "Calagator" */;
 			buildPhases = (
-				CDBFDE12CF244BF8B3A82221 /* Check Pods Manifest.lock */,
-				955FDAC71787C88E007A04D3 /* Sources */,
-				955FDAC81787C88E007A04D3 /* Frameworks */,
-				955FDAC91787C88E007A04D3 /* Resources */,
-				9FEEB903683F464CBC44827C /* Copy Pods Resources */,
+				95312AF718D1457300A49D6D /* Sources */,
+				95312AF818D1457300A49D6D /* Frameworks */,
+				95312AF918D1457300A49D6D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -213,107 +169,131 @@
 			);
 			name = Calagator;
 			productName = Calagator;
-			productReference = 955FDACB1787C88E007A04D3 /* Calagator.app */;
+			productReference = 95312AFB18D1457300A49D6D /* Calagator.app */;
 			productType = "com.apple.product-type.application";
+		};
+		95312B1B18D1457300A49D6D /* CalagatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95312B3018D1457300A49D6D /* Build configuration list for PBXNativeTarget "CalagatorTests" */;
+			buildPhases = (
+				95312B1818D1457300A49D6D /* Sources */,
+				95312B1918D1457300A49D6D /* Frameworks */,
+				95312B1A18D1457300A49D6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95312B2218D1457300A49D6D /* PBXTargetDependency */,
+			);
+			name = CalagatorTests;
+			productName = CalagatorTests;
+			productReference = 95312B1C18D1457300A49D6D /* CalagatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		955FDAC31787C88E007A04D3 /* Project object */ = {
+		95312AF318D1457300A49D6D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = CAL;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = GroundSpeed;
+				TargetAttributes = {
+					95312B1B18D1457300A49D6D = {
+						TestTargetID = 95312AFA18D1457300A49D6D;
+					};
+				};
 			};
-			buildConfigurationList = 955FDAC61787C88E007A04D3 /* Build configuration list for PBXProject "Calagator" */;
+			buildConfigurationList = 95312AF618D1457300A49D6D /* Build configuration list for PBXProject "Calagator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 955FDAC21787C88E007A04D3;
-			productRefGroup = 955FDACC1787C88E007A04D3 /* Products */;
+			mainGroup = 95312AF218D1457300A49D6D;
+			productRefGroup = 95312AFC18D1457300A49D6D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				955FDACA1787C88E007A04D3 /* Calagator */,
+				95312AFA18D1457300A49D6D /* Calagator */,
+				95312B1B18D1457300A49D6D /* CalagatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		955FDAC91787C88E007A04D3 /* Resources */ = {
+		95312AF918D1457300A49D6D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				955FDAD91787C88E007A04D3 /* InfoPlist.strings in Resources */,
-				955FDAE11787C88F007A04D3 /* Default.png in Resources */,
-				955FDAE31787C88F007A04D3 /* Default@2x.png in Resources */,
-				955FDAE51787C88F007A04D3 /* Default-568h@2x.png in Resources */,
-				955FDAEE1787C95B007A04D3 /* MainStoryboard.storyboard in Resources */,
+				95312B1718D1457300A49D6D /* Images.xcassets in Resources */,
+				95312B0918D1457300A49D6D /* InfoPlist.strings in Resources */,
+				95312B1218D1457300A49D6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95312B1A18D1457300A49D6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95312B2818D1457300A49D6D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		9FEEB903683F464CBC44827C /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CDBFDE12CF244BF8B3A82221 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		955FDAC71787C88E007A04D3 /* Sources */ = {
+		95312AF718D1457300A49D6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				955FDADB1787C88E007A04D3 /* main.m in Sources */,
-				955FDADF1787C88F007A04D3 /* CALAppDelegate.m in Sources */,
-				952841CD17886EB6005FAA21 /* jsonController.m in Sources */,
-				952841D01788815E005FAA21 /* CALEventsViewController.m in Sources */,
-				952841D31788D69B005FAA21 /* CALEventsTableViewController.m in Sources */,
-				952841DA17893515005FAA21 /* CALEventsDetailViewController.m in Sources */,
-				952841DD1789C462005FAA21 /* CALVenuesViewController.m in Sources */,
-				952841E31789C49E005FAA21 /* CALVenuesTableViewController.m in Sources */,
+				95312B1518D1457300A49D6D /* ViewController.m in Sources */,
+				95312B0F18D1457300A49D6D /* AppDelegate.m in Sources */,
+				95312B0B18D1457300A49D6D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95312B1818D1457300A49D6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95312B2A18D1457300A49D6D /* CalagatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		95312B2218D1457300A49D6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95312AFA18D1457300A49D6D /* Calagator */;
+			targetProxy = 95312B2118D1457300A49D6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		955FDAD71787C88E007A04D3 /* InfoPlist.strings */ = {
+		95312B0718D1457300A49D6D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				955FDAD81787C88E007A04D3 /* en */,
+				95312B0818D1457300A49D6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95312B1018D1457300A49D6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95312B1118D1457300A49D6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95312B2618D1457300A49D6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95312B2718D1457300A49D6D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -321,17 +301,21 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		955FDAE61787C88F007A04D3 /* Debug */ = {
+		95312B2B18D1457300A49D6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -343,44 +327,55 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		955FDAE71787C88F007A04D3 /* Release */ = {
+		95312B2C18D1457300A49D6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		955FDAE91787C88F007A04D3 /* Debug */ = {
+		95312B2E18D1457300A49D6D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1C0FA8865C44FCDB7F75232 /* Pods/Pods.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calagator/Calagator-Prefix.pch";
 				INFOPLIST_FILE = "Calagator/Calagator-Info.plist";
@@ -389,40 +384,88 @@
 			};
 			name = Debug;
 		};
-		955FDAEA1787C88F007A04D3 /* Release */ = {
+		95312B2F18D1457300A49D6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1C0FA8865C44FCDB7F75232 /* Pods/Pods.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Calagator/Calagator-Prefix.pch";
 				INFOPLIST_FILE = "Calagator/Calagator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		95312B3118D1457300A49D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Calagator.app/Calagator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calagator/Calagator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CalagatorTests/CalagatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		95312B3218D1457300A49D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Calagator.app/Calagator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calagator/Calagator-Prefix.pch";
+				INFOPLIST_FILE = "CalagatorTests/CalagatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		955FDAC61787C88E007A04D3 /* Build configuration list for PBXProject "Calagator" */ = {
+		95312AF618D1457300A49D6D /* Build configuration list for PBXProject "Calagator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				955FDAE61787C88F007A04D3 /* Debug */,
-				955FDAE71787C88F007A04D3 /* Release */,
+				95312B2B18D1457300A49D6D /* Debug */,
+				95312B2C18D1457300A49D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		955FDAE81787C88F007A04D3 /* Build configuration list for PBXNativeTarget "Calagator" */ = {
+		95312B2D18D1457300A49D6D /* Build configuration list for PBXNativeTarget "Calagator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				955FDAE91787C88F007A04D3 /* Debug */,
-				955FDAEA1787C88F007A04D3 /* Release */,
+				95312B2E18D1457300A49D6D /* Debug */,
+				95312B2F18D1457300A49D6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+		};
+		95312B3018D1457300A49D6D /* Build configuration list for PBXNativeTarget "CalagatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95312B3118D1457300A49D6D /* Debug */,
+				95312B3218D1457300A49D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 955FDAC31787C88E007A04D3 /* Project object */;
+	rootObject = 95312AF318D1457300A49D6D /* Project object */;
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0460"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "955FDACA1787C88E007A04D3"
+               BlueprintIdentifier = "95312AFA18D1457300A49D6D"
                BuildableName = "Calagator.app"
                BlueprintName = "Calagator"
                ReferencedContainer = "container:Calagator.xcodeproj">
@@ -28,11 +28,21 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "95312B1B18D1457300A49D6D"
+               BuildableName = "CalagatorTests.xctest"
+               BlueprintName = "CalagatorTests"
+               ReferencedContainer = "container:Calagator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "955FDACA1787C88E007A04D3"
+            BlueprintIdentifier = "95312AFA18D1457300A49D6D"
             BuildableName = "Calagator.app"
             BlueprintName = "Calagator"
             ReferencedContainer = "container:Calagator.xcodeproj">
@@ -51,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "955FDACA1787C88E007A04D3"
+            BlueprintIdentifier = "95312AFA18D1457300A49D6D"
             BuildableName = "Calagator.app"
             BlueprintName = "Calagator"
             ReferencedContainer = "container:Calagator.xcodeproj">
@@ -69,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "955FDACA1787C88E007A04D3"
+            BlueprintIdentifier = "95312AFA18D1457300A49D6D"
             BuildableName = "Calagator.app"
             BlueprintName = "Calagator"
             ReferencedContainer = "container:Calagator.xcodeproj">
