@@ -1,0 +1,10 @@
+PODS:
+  - AMSlideOutController (1.8.2)
+
+DEPENDENCIES:
+  - AMSlideOutController
+
+SPEC CHECKSUMS:
+  AMSlideOutController: 1d15b91b385db54bcca5adfa4ec7149bcf50f602
+
+COCOAPODS: 0.29.0
